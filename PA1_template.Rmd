@@ -14,12 +14,13 @@ library(knitr)
 library(stringr)
 library(scales)
 library(lattice)
+
 opts_chunk$set(echo = TRUE)
 ```
 
 ## Loading and preprocessing the data
 
-The data to be leveraged for the assignment is the "activity.csv" file, included in this repository. The following code will load and clean the dataset.
+The data to be leveraged for the assignment is the "activity.csv" file, included in this repository. The following code will load and clean the dataset:
 
 ```{r import.process}
 data <- read.csv("activity.csv")

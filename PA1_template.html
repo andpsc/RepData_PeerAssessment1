@@ -174,10 +174,11 @@ pre code {
 library(stringr)
 library(scales)
 library(lattice)
+
 opts_chunk$set(echo = TRUE)</code></pre>
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
-<p>The data to be leveraged for the assignment is the “activity.csv” file, included in this repository. The following code will load and clean the dataset.</p>
+<p>The data to be leveraged for the assignment is the “activity.csv” file, included in this repository. The following code will load and clean the dataset:</p>
 <pre class="r"><code>data &lt;- read.csv(&quot;activity.csv&quot;)
 data$date &lt;- as.Date(as.character(data$date), format = &quot;%Y-%m-%d&quot;)
 # Add a variable &quot;intstart&quot; indicating in time format when interval begins
