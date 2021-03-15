@@ -5,7 +5,7 @@ output:
     keep_md: true
 ---
 
-The following code represents a submission for the assignment "Peer Assessment 1" of the Coursera course "Reproducible Research".
+This file represents the submission for the assignment "Peer Assessment 1" of the Coursera course "Reproducible Research".
 
 The following code loads all relevant packages and ensures all code chunks will be displayed, allowing peers to review:
 
@@ -21,7 +21,7 @@ opts_chunk$set(echo = TRUE)
 
 ## Loading and preprocessing the data
 
-The data to be leveraged for the assignment is the "activity.csv" file, included in this repository. The following code will load and clean the dataset:
+The data to be leveraged for the assignment is the "activity.csv" file, included in this repository. The following code will load and clean the dataset :
 
 
 ```r
