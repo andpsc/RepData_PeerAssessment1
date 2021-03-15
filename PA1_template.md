@@ -157,5 +157,8 @@ xyplot(steps ~ interval | dayofweek, data = dailystepsweek, type = "l", layout =
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c36981df44e4cbb443a18fa2c02e7ef1846b5e6
 Weekend steps are generally lower than weekday steps, as well as more concentrated in the afternoon hours.
